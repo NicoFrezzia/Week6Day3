@@ -1,0 +1,127 @@
+html, body, h1 , p{
+    margin: 0;
+    padding: 0;
+}
+.page {
+    background: #F6F6F6;
+}
+.top{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: white;
+}
+.name {
+   margin-left: 10px;
+}
+.question {
+   margin-top: 10px;
+   margin-left: 10px;
+}
+#contentBox {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: #eee;
+    width: 95%;
+    min-height: 650px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* the actual comment */
+.comment {
+    background-color: #F6F6F6; 
+    margin-left: 2.5%;
+    margin-right: 2.5%;  
+    margin: 20px;
+    padding: 10px;
+}
+.mainComment{
+    display: flex;
+    justify-content: space-between;
+}
+.fakeComment{
+    display: flex;
+    margin-left: 140px;
+}
+#fakeSubmitButton {
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 70%;
+    color: lightblue;
+}
+.leftBox {
+    display: flex;
+}
+.editDel {
+    display: flex;
+}
+.profile {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-image: url(icon.png);
+    background-size: cover;
+    background-position: center;
+}
+#del {
+    margin-left: 5px;
+    margin-right: 2px;
+}
+.creatComment {
+    margin-left: 2.5%;
+    width: 95%;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+}
+
+/* making the comment */
+.inputName {
+    margin-left: 2.5%;
+    padding: 5px;
+}
+.inputComment{
+    margin-left: -45px;
+    padding: 5px;
+}
+#displayName {
+    width: 65%;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+#comment{
+    width: 600%;
+    border-radius: 3px;
+    
+}
+#submitButton {
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 850px;
+    color: lightblue;
+}
+#submitButton:hover {
+    cursor: pointer;
+}
+#edit:hover {
+    cursor: pointer;
+}
+#del:hover {
+    cursor: pointer;
+}
+.noDisplay {
+    display: none;
+}
+#edit {
+    color: lightblue;
+}
+#del {
+    color: lightblue;
+}
+#fakeSubmitButton{ 
+    cursor: pointer;
+}
